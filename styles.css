@@ -22,6 +22,7 @@ body {
 
 .introInfo {
     display: flex;
+    flex-direction: column;
 }
 
 .heroHead {
