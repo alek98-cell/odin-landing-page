@@ -11,6 +11,7 @@ body {
 
 .headerContent {
     display: flex;
+    width: 1000px;
 }
 
 .logo {
@@ -55,14 +56,19 @@ a {
 
 .info {
     display: flex;
+}
+
+.infoContent {
+    display: flex;
     flex-direction: column;
+    width: 1000px;
 }
 
 .infoHead {
     color: #1f2937;
 }
 
-.infoContent {
+.infoCards {
     display: flex;
 }
 
@@ -97,7 +103,7 @@ a {
     display: flex;
 }
 
-.signupContent {
+.signupInfo {
     display: flex;
     flex-direction: column;
 }
